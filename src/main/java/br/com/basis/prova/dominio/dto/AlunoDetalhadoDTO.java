@@ -16,6 +16,6 @@ public class AlunoDetalhadoDTO {
     private String nome;
     private String matricula;
     private Integer idade;
-    private List<String> disciplinas = new ArrayList<>();
+    private List<DisciplinaDTO> disciplinas = new ArrayList<>();
 
 }

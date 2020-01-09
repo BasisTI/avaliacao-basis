@@ -29,10 +29,8 @@ public class ProfessorServico {
     }
 
     public ProfessorDTO salvar(ProfessorDTO professorDTO) {
-        Professor professor = professorMapper.toEntity(professorDTO);
-        return professorMapper.toDto(professor);
+        return null;
     }
-
 
     public void excluir(Integer id) {
     }

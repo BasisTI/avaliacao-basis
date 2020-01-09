@@ -7,13 +7,4 @@ import org.mapstruct.Mapping;
 
 @Mapper(componentModel = "spring", uses = {ProfessorMapper.class})
 public interface DisciplinaMapper extends EntityMapper<DisciplinaDTO, Disciplina> {
-
-    @Override
-    @Mapping(target = "idProfessor", source = "professor.id")
-    DisciplinaDTO toDto(Disciplina disciplina);
-
-    @Override
-    @Mapping(target = "professor.id", source = "idProfessor")
-    Disciplina toEntity(DisciplinaDTO disciplinaDTO);
-
 }

@@ -15,6 +15,6 @@ public class ProfessorDetalhadoDTO {
     private Integer id;
     private String nome;
     private String matricula;
-    private List<String> disciplinas = new ArrayList<>();
+    private List<DisciplinaDTO> disciplinas = new ArrayList<>();
 
 }

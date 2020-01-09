@@ -12,6 +12,6 @@ public class DisciplinaDetalhadaDTO {
     private Integer id;
     private String nome;
     private Integer cargaHoraria;
-    private String nomeProfessor;
+    private ProfessorDTO professor;
 
 }

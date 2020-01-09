@@ -24,8 +24,7 @@ public class DisciplinaServico {
     }
 
     public DisciplinaDTO salvar(DisciplinaDTO disciplinaDTO) {
-        Disciplina disciplina = disciplinaMapper.toEntity(disciplinaDTO);
-        return disciplinaMapper.toDto(disciplina);
+        return null;
     }
 
     public void excluir(Integer id) {
